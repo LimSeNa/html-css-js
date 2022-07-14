@@ -13,9 +13,9 @@
     - Chap 06 : CSS의 기본
     - Chap 07 : 텍스트를 표현하는 다양한 스타일
     - Chap 08 : 레이아웃을 구성하는 CSS 박스 모델
-    - [Chap 09 : 이미지와 그러데이션 효과로 배경 꾸미기](https://typhoon-lunge-3d4.notion.site/Chap-09-d422bd5bb0654b2abe74beda24514495)
+    - Chap 09 : [이미지와 그러데이션 효과로 배경 꾸미기](https://typhoon-lunge-3d4.notion.site/Chap-09-d422bd5bb0654b2abe74beda24514495)
     - Chap 10 : CSS 고급 선택자
-    - Chap 11 : 트랜지션과 애니메이션
+    - Chap 11 : [트랜지션과 애니메이션](https://typhoon-lunge-3d4.notion.site/Chap-11-75e1b3d182b44a2c9e7dd707648f4477)
     - Chap 12 : 반응형 웹과 미디어 쿼리
 * <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></img>
     - Chap 13 : 자바스크립트와 첫 만남
