@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>마무리 문제 1</title>
+  <style>
+    * {
+      box-sizing: border-box; /* border-box는 테두리까지 포함해서 너빗값 지정 */
+    }
+    .menu {
+      list-style: none; /* 불릿 없앰 */
+      width: 605px;
+      height: 30px;
+      background-color: #dadada;
+      box-shadow: 0px 3px 4px #8a8a8b; /* 수평 거리, 수직 거리, 흐림 정도, 색상 */
+      padding: 0;
+      margin: 50px auto; 
+    }
+    .menu li { /* .menu 하위 모든 li */
+      float: left;
+      border-right: 1px solid #929292;
+      width: 100px;
+      height: 35px;
+    }
+    .menu li:last-child { /* 부모 안에 있는 모든 요소 중에서 마지막 자식 요소 선택 */
+      border-right: none;
+    }
+    .menu li a:link { /* :link는 방문하지 않은 링크에 스타일을 적용 */
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      line-height: 35px; /* 영역의 높이를 나타내는 height의 속성값과 똑같이 지정하여 가운데 정렬 */
+      display: block;
+    }
+    .menu li a:hover {  
+      transition: all 0.5s ease-in; /* 모두, 0.5초, 느리게 시작 */
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#">메뉴1</a></li>
+    <li><a href="#">메뉴2</a></li>
+    <li><a href="#">메뉴3</a></li>
+    <li><a href="#">메뉴4</a></li>
+    <li><a href="#">메뉴5</a></li>
+    <li><a href="#">메뉴6</a></li>
+  </ul>
+</body>
+</html>
