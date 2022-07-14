@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>translate() 함수를 사용해 웹 요소 이동하기</title>
+  <style>
+    #container {
+      width: 800px;
+      height: 200px;
+      margin: 20px auto; /* 위아래 20px, 좌우 auto */
+    }
+    .origin {
+      width: 100px;
+      height: 100px;
+      border: 1px solid black;
+      float: left; /* 왼쪽으로 정렬 */
+      margin: 40px;
+    }
+    .origin > div { /* 자식 선택자 : 바로 한 단계 아래의 요소(자식 요소)에만 스타일 적용 */
+      width: 100px;
+      height: 100px;
+      background-color: orange;
+    } 
+    #movex:hover { transform: translateX(50px); } /* x축으로 50px만큼 이동 */
+    #movey:hover { transform: translateY(20px); } /* y축으로 20px만큼 이동 */
+    #movexy:hover { transform: translate(10px, 20px); } /* x축으로 10px만큼, y축으로 20px만큼 이동*/
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="origin">
+      <div id="movex"></div>
+    </div>
+    <div class="origin">
+      <div id="movey"></div>
+    </div>
+    <div class="origin">
+      <div id="movexy"></div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko"
+  <meta charset="UTF-8">
+  <title>애니메이션의 지점, 이름, 실행 시간 적용하기</title>
+  <style>
+    #container {
+      width: 500px;
+      margin: 20px auto;
+    }
+    .box {
+      width: 100px;
+      height: 100px;
+      margin: 50px;
+      float: left;
+    }
+    #box1 {
+      background-color: aquamarine;
+      border: 1px solid transparent; 
+      animation-name: shape; 
+      animation-duration: 3s; 
+      animation-iteration-count: infinite; /* 애미메이션 반복 횟수 : 무한 반복 */
+    }
+    #box2 {
+      background-color: purple;
+      border: 1px solid transparent;
+      animation-name: rotate;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes shape { /* shape 애니메이션 정의 */
+      form { border: 1px solid transparent; }
+      to { 
+        border: 1px solid #000;
+        border-radius: 50%;
+      }
+    }
+    @keyframes rotate { /* rotate 애니메이션 정의 */
+      form { transform: rotate(0deg); }
+      to { transform: rotate(45deg); }
+    }
+  </style>
+</head>
+<body>
+  <div id="container"></div>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+  </div>
+</body>
+</html>
