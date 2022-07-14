@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>마무리 문제 2</title>
+  <style>
+    #bear {
+      width: 200px;
+      border-radius: 50%;
+      box-shadow: 5px 5px 30px 2px #000; /* 수평 거리, 수직 거리, 흐림 정도, 번짐 정도, 색상 */
+      margin: 30px auto;
+      animation: rotate 3s infinite; /* 이름, 실행 시간, 반복 횟수 */
+    }
+    @keyframes rotate {
+      from { transform: rotateY(0deg) perspective(200px);}
+      50% { transform: rotateY(-180deg) perspective(200px);}
+      to { transform: rotateY(-360deg) perspective(200px);}
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <img src="./images/bear.jpg" id="bear">
+  </div>
+</body>
+</html>
