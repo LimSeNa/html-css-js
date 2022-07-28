@@ -18,7 +18,7 @@
     - Chap 11 : [트랜지션과 애니메이션](https://typhoon-lunge-3d4.notion.site/Chap-11-75e1b3d182b44a2c9e7dd707648f4477)
     - Chap 12 : 반응형 웹과 미디어 쿼리
 * <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></img>
-    - Chap 13 : 자바스크립트와 첫 만남
+    - Chap 13 : [자바스크립트와 첫 만남](https://typhoon-lunge-3d4.notion.site/Chap-13-2c30e4a37d3c448c964bd2d8edea8021)
     - Chap 14 : 자바스크립트 기본 문법
     - Chap 15 : 함수와 이벤트
     - Chap 16 : 자바스크립트와 객체
